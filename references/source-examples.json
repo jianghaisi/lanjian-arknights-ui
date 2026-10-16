@@ -1,0 +1,1729 @@
+{
+  "snapshot_date": "2026-10-16",
+  "snapshot_kind": "portable-metadata-only",
+  "counts": {
+    "style_cards": 28,
+    "catalog_statuses": {
+      "代表样本已审阅": 15,
+      "低置信候选": 13
+    },
+    "unique_referenced_sources": 47,
+    "animated_archive_entries": 24
+  },
+  "scope": "Catalog snapshot, not bundled media or a live website/creator verification. Connect your own library or inspect permitted original URLs; do not use AI output as source evidence.",
+  "styles": [
+    {
+      "style_id": "STYLE-001",
+      "name": "黄黑工业标识",
+      "catalog_status": "代表样本已审阅",
+      "catalog_confidence": "中",
+      "catalog_summary": "黄黑工业标识：纵向卡列或左右信息分区，斜切面与圆形节点形成动势。",
+      "recommendation_role": "composition-direction",
+      "references": [
+        {
+          "source_id": "SRC-77aa708e3da000f49950",
+          "region": "完整图的总体排版；人物、标志和具体文本不迁移"
+        },
+        {
+          "source_id": "SRC-e2d122d4030b5381b9e6",
+          "region": "完整图的总体排版；人物、标志和具体文本不迁移"
+        }
+      ]
+    },
+    {
+      "style_id": "STYLE-002",
+      "name": "大留白巨字编辑",
+      "catalog_status": "代表样本已审阅",
+      "catalog_confidence": "中",
+      "catalog_summary": "大留白巨字编辑：大块留白、左对齐巨字；细线分区，小比例辅助图。",
+      "recommendation_role": "composition-direction",
+      "references": [
+        {
+          "source_id": "SRC-d360ec50653be4e997c6",
+          "region": "完整图的总体排版；人物、标志和具体文本不迁移"
+        },
+        {
+          "source_id": "SRC-f1185ae9ec4983635cf8",
+          "region": "完整图的总体排版；人物、标志和具体文本不迁移"
+        }
+      ]
+    },
+    {
+      "style_id": "STYLE-003",
+      "name": "暗底青粉律动",
+      "catalog_status": "低置信候选",
+      "catalog_confidence": "低",
+      "catalog_summary": "暗底青粉律动：深色底上让青粉高光围绕主体，细曲线提供节奏。",
+      "recommendation_role": "composition-direction",
+      "references": [
+        {
+          "source_id": "SRC-995c5f96af5f5002e100",
+          "region": "完整图的总体排版；人物、标志和具体文本不迁移"
+        },
+        {
+          "source_id": "SRC-964a46f79f644c2de21f",
+          "region": "完整图的总体排版；人物、标志和具体文本不迁移"
+        }
+      ]
+    },
+    {
+      "style_id": "STYLE-004",
+      "name": "象牙白衬线编辑",
+      "catalog_status": "代表样本已审阅",
+      "catalog_confidence": "中",
+      "catalog_summary": "象牙白衬线编辑：浅底两侧信息栏、细水平分隔、中央或右侧主图。",
+      "recommendation_role": "composition-direction",
+      "references": [
+        {
+          "source_id": "SRC-dcbaeffcd9629b21488e",
+          "region": "完整图的总体排版；人物、标志和具体文本不迁移"
+        },
+        {
+          "source_id": "SRC-9d752c2206da3f304fe0",
+          "region": "完整图的总体排版；人物、标志和具体文本不迁移"
+        }
+      ]
+    },
+    {
+      "style_id": "STYLE-005",
+      "name": "水墨留白与朱红",
+      "catalog_status": "低置信候选",
+      "catalog_confidence": "低",
+      "catalog_summary": "水墨留白与朱红：大面积纸白、竖向主标题，底部山水压住重心。",
+      "recommendation_role": "composition-direction",
+      "references": [
+        {
+          "source_id": "SRC-85181191ebd343d2408f",
+          "region": "完整图的总体排版；人物、标志和具体文本不迁移"
+        }
+      ]
+    },
+    {
+      "style_id": "STYLE-006",
+      "name": "冰蓝霜面晶体",
+      "catalog_status": "代表样本已审阅",
+      "catalog_confidence": "中",
+      "catalog_summary": "冰蓝霜面晶体：大面积浅色空间，深蓝晶体或主体聚焦，细线和短横组织信息。",
+      "recommendation_role": "composition-direction",
+      "references": [
+        {
+          "source_id": "SRC-63af7980e84f3f08ac69",
+          "region": "完整图的总体排版；人物、标志和具体文本不迁移"
+        },
+        {
+          "source_id": "SRC-0e4c2534c72c1b0d0fdb",
+          "region": "完整图的总体排版；人物、标志和具体文本不迁移"
+        }
+      ]
+    },
+    {
+      "style_id": "STYLE-007",
+      "name": "冷灰叙事景观",
+      "catalog_status": "低置信候选",
+      "catalog_confidence": "低",
+      "catalog_summary": "冷灰叙事景观：低地平线、宽阔负空间、小尺度人物衬托环境。",
+      "recommendation_role": "composition-direction",
+      "references": [
+        {
+          "source_id": "SRC-a93b7478e6ba6348e744",
+          "region": "完整图的总体排版；人物、标志和具体文本不迁移"
+        }
+      ]
+    },
+    {
+      "style_id": "STYLE-008",
+      "name": "红黑斜切漫画",
+      "catalog_status": "低置信候选",
+      "catalog_confidence": "低",
+      "catalog_summary": "红黑斜切漫画：斜切放射碎片、主体偏左，右侧白色信息块。",
+      "recommendation_role": "composition-direction",
+      "references": [
+        {
+          "source_id": "SRC-b562562db54dd896f548",
+          "region": "完整图的总体排版；人物、标志和具体文本不迁移"
+        }
+      ]
+    },
+    {
+      "style_id": "STYLE-009",
+      "name": "蓝黄夏日动势",
+      "catalog_status": "低置信候选",
+      "catalog_confidence": "低",
+      "catalog_summary": "蓝黄夏日动势：蓝天作大背景，黄色斜向飘带与深蓝底栏形成层次。",
+      "recommendation_role": "composition-direction",
+      "references": [
+        {
+          "source_id": "SRC-ed93297b283ded305150",
+          "region": "完整图的总体排版；人物、标志和具体文本不迁移"
+        }
+      ]
+    },
+    {
+      "style_id": "STYLE-010",
+      "name": "珊瑚薄荷活力拼贴",
+      "catalog_status": "代表样本已审阅",
+      "catalog_confidence": "中",
+      "catalog_summary": "珊瑚薄荷活力拼贴：大平涂色块、倾斜字块、星形或贴纸围绕主视觉。",
+      "recommendation_role": "composition-direction",
+      "references": [
+        {
+          "source_id": "SRC-41c94615c6f3035be708",
+          "region": "完整图的总体排版；人物、标志和具体文本不迁移"
+        },
+        {
+          "source_id": "SRC-3b54e40ea435f7463e92",
+          "region": "完整图的总体排版；人物、标志和具体文本不迁移"
+        }
+      ]
+    },
+    {
+      "style_id": "STYLE-011",
+      "name": "黑金细饰典礼",
+      "catalog_status": "代表样本已审阅",
+      "catalog_confidence": "中",
+      "catalog_summary": "黑金细饰典礼：暗底上以金色文字为锚点，细框或弧形纹路辅助。",
+      "recommendation_role": "composition-direction",
+      "references": [
+        {
+          "source_id": "SRC-dcf07717fb7cf2e89142",
+          "region": "完整图的总体排版；人物、标志和具体文本不迁移"
+        },
+        {
+          "source_id": "SRC-9af005dde2f2883ce34e",
+          "region": "完整图的总体排版；人物、标志和具体文本不迁移"
+        }
+      ]
+    },
+    {
+      "style_id": "STYLE-012",
+      "name": "霓虹层叠山水",
+      "catalog_status": "代表样本已审阅",
+      "catalog_confidence": "中",
+      "catalog_summary": "霓虹层叠山水：山体按前中后分层，大月轮或拱桥提供圆形焦点。",
+      "recommendation_role": "composition-direction",
+      "references": [
+        {
+          "source_id": "SRC-8d6dde3521e02f1b5424",
+          "region": "完整图的总体排版；人物、标志和具体文本不迁移"
+        },
+        {
+          "source_id": "SRC-2341ede0b8427d614dc6",
+          "region": "完整图的总体排版；人物、标志和具体文本不迁移"
+        }
+      ]
+    },
+    {
+      "style_id": "STYLE-013",
+      "name": "单色几何实心符号",
+      "catalog_status": "代表样本已审阅",
+      "catalog_confidence": "中",
+      "catalog_summary": "单色几何实心符号：居中对称、重复基本形、正负形平衡。",
+      "recommendation_role": "supporting-language",
+      "references": [
+        {
+          "source_id": "SRC-78f66659df9d51e74fa4",
+          "region": "完整图的总体排版；人物、标志和具体文本不迁移"
+        },
+        {
+          "source_id": "SRC-2a9ae1a4550056741500",
+          "region": "完整图的总体排版；人物、标志和具体文本不迁移"
+        }
+      ]
+    },
+    {
+      "style_id": "STYLE-014",
+      "name": "单色线性功能图标",
+      "catalog_status": "代表样本已审阅",
+      "catalog_confidence": "中",
+      "catalog_summary": "单色线性功能图标：单对象居中，以恒定笔画和轮廓表达含义。",
+      "recommendation_role": "supporting-language",
+      "references": [
+        {
+          "source_id": "SRC-2583a841902c31d89da5",
+          "region": "完整图的总体排版；人物、标志和具体文本不迁移"
+        },
+        {
+          "source_id": "SRC-56407a43b35a9c160574",
+          "region": "完整图的总体排版；人物、标志和具体文本不迁移"
+        }
+      ]
+    },
+    {
+      "style_id": "STYLE-015",
+      "name": "纸张手帐拼贴",
+      "catalog_status": "代表样本已审阅",
+      "catalog_confidence": "中",
+      "catalog_summary": "纸张手帐拼贴：俯视桌面，多层纸张、照片、便签错位重叠。",
+      "recommendation_role": "composition-direction",
+      "references": [
+        {
+          "source_id": "SRC-5db2affbb348b6975452",
+          "region": "完整图的总体排版；人物、标志和具体文本不迁移"
+        },
+        {
+          "source_id": "SRC-95a2f81bda149b56a758",
+          "region": "完整图的总体排版；人物、标志和具体文本不迁移"
+        }
+      ]
+    },
+    {
+      "style_id": "STYLE-016",
+      "name": "等距模块导览",
+      "catalog_status": "低置信候选",
+      "catalog_confidence": "低",
+      "catalog_summary": "等距模块导览：等距俯视的白灰建筑模块，三色区域、编号与引导线。",
+      "recommendation_role": "composition-direction",
+      "references": [
+        {
+          "source_id": "SRC-caf9ea87b441a051820f",
+          "region": "完整图的总体排版；人物、标志和具体文本不迁移"
+        },
+        {
+          "source_id": "SRC-bbbf89d4328df6a0372f",
+          "region": "完整图的总体排版；人物、标志和具体文本不迁移"
+        }
+      ]
+    },
+    {
+      "style_id": "STYLE-017",
+      "name": "尖笔卷草装饰字",
+      "catalog_status": "代表样本已审阅",
+      "catalog_confidence": "中",
+      "catalog_summary": "尖笔卷草装饰字：以单词或短标题为中心，留出花饰呼吸空间。",
+      "recommendation_role": "supporting-language",
+      "references": [
+        {
+          "source_id": "SRC-16a06248531dbedc1793",
+          "region": "完整图的总体排版；人物、标志和具体文本不迁移"
+        },
+        {
+          "source_id": "SRC-5f612d15adcd3504a6c7",
+          "region": "完整图的总体排版；人物、标志和具体文本不迁移"
+        }
+      ]
+    },
+    {
+      "style_id": "STYLE-018",
+      "name": "暖橙网点印刷",
+      "catalog_status": "低置信候选",
+      "catalog_confidence": "低",
+      "catalog_summary": "暖橙网点印刷：暖色双色插画上叠规则圆点，标题集中于右下。",
+      "recommendation_role": "composition-direction",
+      "references": [
+        {
+          "source_id": "SRC-5cef8eeaea92aac12bbf",
+          "region": "完整图的总体排版；人物、标志和具体文本不迁移"
+        }
+      ]
+    },
+    {
+      "style_id": "STYLE-019",
+      "name": "灰阶荧光功能界面",
+      "catalog_status": "低置信候选",
+      "catalog_confidence": "低",
+      "catalog_summary": "灰阶荧光功能界面：左侧卡片、中部主体、右侧属性表；细分隔线。",
+      "recommendation_role": "composition-direction",
+      "references": [
+        {
+          "source_id": "SRC-6a2deb081d81e197952d",
+          "region": "完整图的总体排版；人物、标志和具体文本不迁移"
+        }
+      ]
+    },
+    {
+      "style_id": "STYLE-020",
+      "name": "原色几何模块",
+      "catalog_status": "低置信候选",
+      "catalog_confidence": "低",
+      "catalog_summary": "原色几何模块：圆弧、三角和矩形按模块栅格拼接。",
+      "recommendation_role": "composition-direction",
+      "references": [
+        {
+          "source_id": "SRC-44bc2a4ed77bfbc43299",
+          "region": "完整图的总体排版；人物、标志和具体文本不迁移"
+        }
+      ]
+    },
+    {
+      "style_id": "STYLE-021",
+      "name": "跳色随机几何",
+      "catalog_status": "低置信候选",
+      "catalog_confidence": "低",
+      "catalog_summary": "跳色随机几何：青黄白色版面上散置曲线、圆和三角。",
+      "recommendation_role": "composition-direction",
+      "references": [
+        {
+          "source_id": "SRC-98cb74b6b7a42f07108e",
+          "region": "完整图的总体排版；人物、标志和具体文本不迁移"
+        }
+      ]
+    },
+    {
+      "style_id": "STYLE-022",
+      "name": "霓虹日落网格",
+      "catalog_status": "低置信候选",
+      "catalog_confidence": "低",
+      "catalog_summary": "霓虹日落网格：中央条纹大日轮、水平山线、向消失点汇聚的地面格线。",
+      "recommendation_role": "composition-direction",
+      "references": [
+        {
+          "source_id": "SRC-85ae343d379deb70bcdc",
+          "region": "完整图的总体排版；人物、标志和具体文本不迁移"
+        }
+      ]
+    },
+    {
+      "style_id": "STYLE-023",
+      "name": "柔光玻璃图标",
+      "catalog_status": "低置信候选",
+      "catalog_confidence": "低",
+      "catalog_summary": "柔光玻璃图标：圆润图标以六宫格展示，前后层叠建立厚度。",
+      "recommendation_role": "composition-direction",
+      "references": [
+        {
+          "source_id": "SRC-3bc9012a3e0c66cad10c",
+          "region": "完整图的总体排版；人物、标志和具体文本不迁移"
+        }
+      ]
+    },
+    {
+      "style_id": "STYLE-024",
+      "name": "暗红舞台聚光",
+      "catalog_status": "低置信候选",
+      "catalog_confidence": "低",
+      "catalog_summary": "暗红舞台聚光：正面舞台纵深，乐器构成中心与左右层次。",
+      "recommendation_role": "composition-direction",
+      "references": [
+        {
+          "source_id": "SRC-6651cfec02a48efa3aa7",
+          "region": "完整图的总体排版；人物、标志和具体文本不迁移"
+        }
+      ]
+    },
+    {
+      "style_id": "STYLE-025",
+      "name": "方格像素排印",
+      "catalog_status": "代表样本已审阅",
+      "catalog_confidence": "中",
+      "catalog_summary": "方格像素排印：紧凑排列且按整数像素缩放。",
+      "recommendation_role": "supporting-language",
+      "references": [
+        {
+          "source_id": "SRC-87ae791863db50c7b733",
+          "region": "字样行；只判断实际显示字形"
+        },
+        {
+          "source_id": "SRC-1fe0ce43d9e5b0ee4234",
+          "region": "字样行；只判断实际显示字形"
+        },
+        {
+          "source_id": "SRC-ce94c20796987a169ea0",
+          "region": "字样行；只判断实际显示字形"
+        }
+      ]
+    },
+    {
+      "style_id": "STYLE-026",
+      "name": "点阵数字排印",
+      "catalog_status": "代表样本已审阅",
+      "catalog_confidence": "中",
+      "catalog_summary": "点阵数字排印：固定点距的标题或数字，留出字符内部空隙。",
+      "recommendation_role": "supporting-language",
+      "references": [
+        {
+          "source_id": "SRC-e7df61fb9045581e0ddc",
+          "region": "字样行；只判断实际显示字形"
+        },
+        {
+          "source_id": "SRC-408ad3335bda8c6994ca",
+          "region": "字样行；只判断实际显示字形"
+        }
+      ]
+    },
+    {
+      "style_id": "STYLE-027",
+      "name": "压缩无衬线标题",
+      "catalog_status": "代表样本已审阅",
+      "catalog_confidence": "中",
+      "catalog_summary": "压缩无衬线标题：大字号竖向拉长感，紧凑字距与宽留白对比。",
+      "recommendation_role": "supporting-language",
+      "references": [
+        {
+          "source_id": "SRC-939fea723dad24504f40",
+          "region": "字样行；只判断实际显示字形"
+        },
+        {
+          "source_id": "SRC-803abbc1463af57653ad",
+          "region": "字样行；只判断实际显示字形"
+        }
+      ]
+    },
+    {
+      "style_id": "STYLE-028",
+      "name": "细线连写手迹",
+      "catalog_status": "代表样本已审阅",
+      "catalog_confidence": "中",
+      "catalog_summary": "细线连写手迹：短句居中或倾斜放置，给上伸下延笔画空间。",
+      "recommendation_role": "supporting-language",
+      "references": [
+        {
+          "source_id": "SRC-5def918eb50138ea902f",
+          "region": "字样行；只判断实际显示字形"
+        },
+        {
+          "source_id": "SRC-60653162581b6973c66c",
+          "region": "字样行；只判断实际显示字形"
+        },
+        {
+          "source_id": "SRC-d68e6cfa6b6140b9fc04",
+          "region": "字样行；只判断实际显示字形"
+        }
+      ]
+    }
+  ],
+  "sources": {
+    "SRC-77aa708e3da000f49950": {
+      "source_id": "SRC-77aa708e3da000f49950",
+      "original_sha256": "77aa708e3da000f49950d4d727d61ce20be18df0b3e248a2086206b867902aab",
+      "kind": "raster",
+      "dimensions": [
+        1152,
+        720
+      ],
+      "preview_kind": "existing-thumbnail",
+      "creation_method": "unknown",
+      "origin": "archived-reference-metadata",
+      "source_urls": [
+        "https://cdn.ignoredone.cn/arknightsdesign/2019/1011/002.jpg"
+      ],
+      "media_included": false,
+      "local_availability": "unknown-on-install"
+    },
+    "SRC-e2d122d4030b5381b9e6": {
+      "source_id": "SRC-e2d122d4030b5381b9e6",
+      "original_sha256": "e2d122d4030b5381b9e685e2443b5f2d1f3cfa59f95ea207292a79a206182fe4",
+      "kind": "raster",
+      "dimensions": [
+        1600,
+        900
+      ],
+      "preview_kind": "existing-thumbnail",
+      "creation_method": "unknown",
+      "origin": "archived-reference-metadata",
+      "source_urls": [
+        "https://cdn.ignoredone.cn/endfielddesign/2026/0716/032.jpg"
+      ],
+      "media_included": false,
+      "local_availability": "unknown-on-install"
+    },
+    "SRC-d360ec50653be4e997c6": {
+      "source_id": "SRC-d360ec50653be4e997c6",
+      "original_sha256": "d360ec50653be4e997c61fa48a61dc821d7bc7bba6c616480a320fa4350943f6",
+      "kind": "raster",
+      "dimensions": [
+        1728,
+        1080
+      ],
+      "preview_kind": "existing-thumbnail",
+      "creation_method": "unknown",
+      "origin": "archived-reference-metadata",
+      "source_urls": [
+        "https://cdn.ignoredone.cn/arknightsdesign/2019/0702/012.jpg"
+      ],
+      "media_included": false,
+      "local_availability": "unknown-on-install"
+    },
+    "SRC-f1185ae9ec4983635cf8": {
+      "source_id": "SRC-f1185ae9ec4983635cf8",
+      "original_sha256": "f1185ae9ec4983635cf83f4c5857e318c337228449e4a257aefc89a88dccfba7",
+      "kind": "raster",
+      "dimensions": [
+        1024,
+        656
+      ],
+      "preview_kind": "existing-thumbnail",
+      "creation_method": "unknown",
+      "origin": "archived-reference-metadata",
+      "source_urls": [
+        "https://ignoredone-wp.oss-cn-shanghai.aliyuncs.com/wp-content/uploads/2026/10/br2-1024x656.jpg"
+      ],
+      "media_included": false,
+      "local_availability": "unknown-on-install"
+    },
+    "SRC-995c5f96af5f5002e100": {
+      "source_id": "SRC-995c5f96af5f5002e100",
+      "original_sha256": "995c5f96af5f5002e10042750cacc772cd53f988581910951327d7d253f3eac8",
+      "kind": "raster",
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "preview_kind": "existing-thumbnail",
+      "creation_method": "unknown",
+      "origin": "archived-reference-metadata",
+      "source_urls": [
+        "https://cdn.ignoredone.cn/arknightsdesign/2021/0526/002.jpg"
+      ],
+      "media_included": false,
+      "local_availability": "unknown-on-install"
+    },
+    "SRC-964a46f79f644c2de21f": {
+      "source_id": "SRC-964a46f79f644c2de21f",
+      "original_sha256": "964a46f79f644c2de21ff2d8785b54bcfe4d32d47c85edf4069026f93f8dfcbb",
+      "kind": "raster",
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "preview_kind": "existing-thumbnail",
+      "creation_method": "unknown",
+      "origin": "archived-reference-metadata",
+      "source_urls": [
+        "https://cdn.ignoredone.cn/arknightsdesign/2022/0602/003.jpg"
+      ],
+      "media_included": false,
+      "local_availability": "unknown-on-install"
+    },
+    "SRC-dcbaeffcd9629b21488e": {
+      "source_id": "SRC-dcbaeffcd9629b21488e",
+      "original_sha256": "dcbaeffcd9629b21488e56d363b591fbbe1184cb2fa71f5a5fc293ba92aba6ad",
+      "kind": "raster",
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "preview_kind": "existing-thumbnail",
+      "creation_method": "unknown",
+      "origin": "archived-reference-metadata",
+      "source_urls": [
+        "https://cdn.ignoredone.cn/arknightsdesign/2021/0628/002.jpg"
+      ],
+      "media_included": false,
+      "local_availability": "unknown-on-install"
+    },
+    "SRC-9d752c2206da3f304fe0": {
+      "source_id": "SRC-9d752c2206da3f304fe0",
+      "original_sha256": "9d752c2206da3f304fe0904f92d5ca44604812f7ee013d06e32d866b1b73a126",
+      "kind": "raster",
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "preview_kind": "existing-thumbnail",
+      "creation_method": "unknown",
+      "origin": "archived-reference-metadata",
+      "source_urls": [
+        "https://cdn.ignoredone.cn/arknightsdesign/2022/0309/003.jpg"
+      ],
+      "media_included": false,
+      "local_availability": "unknown-on-install"
+    },
+    "SRC-85181191ebd343d2408f": {
+      "source_id": "SRC-85181191ebd343d2408f",
+      "original_sha256": "85181191ebd343d2408ff03db0c910503b88fe1f7450b9d0a7f0b85c19660783",
+      "kind": "raster",
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "preview_kind": "existing-thumbnail",
+      "creation_method": "unknown",
+      "origin": "archived-reference-metadata",
+      "source_urls": [
+        "https://cdn.ignoredone.cn/endfielddesign/2026/0716/cover.jpg?x-oss-process=image/format,webp/quality,q_80"
+      ],
+      "media_included": false,
+      "local_availability": "unknown-on-install"
+    },
+    "SRC-63af7980e84f3f08ac69": {
+      "source_id": "SRC-63af7980e84f3f08ac69",
+      "original_sha256": "63af7980e84f3f08ac693db378d162c1d28f58fac92564b5af949ed078f9fde5",
+      "kind": "raster",
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "preview_kind": "existing-thumbnail",
+      "creation_method": "unknown",
+      "origin": "archived-reference-metadata",
+      "source_urls": [
+        "https://cdn.ignoredone.cn/arknightsdesign/2023/0630/005.jpg"
+      ],
+      "media_included": false,
+      "local_availability": "unknown-on-install"
+    },
+    "SRC-0e4c2534c72c1b0d0fdb": {
+      "source_id": "SRC-0e4c2534c72c1b0d0fdb",
+      "original_sha256": "0e4c2534c72c1b0d0fdb5b14e049c480f663575d39cedba6456eef1d66d95728",
+      "kind": "raster",
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "preview_kind": "existing-thumbnail",
+      "creation_method": "unknown",
+      "origin": "archived-reference-metadata",
+      "source_urls": [
+        "https://cdn.ignoredone.cn/endfielddesign/2026/0902/001.jpg"
+      ],
+      "media_included": false,
+      "local_availability": "unknown-on-install"
+    },
+    "SRC-a93b7478e6ba6348e744": {
+      "source_id": "SRC-a93b7478e6ba6348e744",
+      "original_sha256": "a93b7478e6ba6348e7449ad6a7a04b0f1332478b775fe61071d0da48610c071b",
+      "kind": "raster",
+      "dimensions": [
+        1024,
+        566
+      ],
+      "preview_kind": "existing-thumbnail",
+      "creation_method": "unknown",
+      "origin": "archived-reference-metadata",
+      "source_urls": [
+        "https://ignoredone-wp.oss-cn-shanghai.aliyuncs.com/wp-content/uploads/2025/03/Snipaste_2025-03-31_13-17-42-1024x566.webp"
+      ],
+      "media_included": false,
+      "local_availability": "unknown-on-install"
+    },
+    "SRC-b562562db54dd896f548": {
+      "source_id": "SRC-b562562db54dd896f548",
+      "original_sha256": "b562562db54dd896f5485778abf974646bf6738217f2ce235d81d70a5eb6f9dc",
+      "kind": "raster",
+      "dimensions": [
+        768,
+        480
+      ],
+      "preview_kind": "existing-thumbnail",
+      "creation_method": "unknown",
+      "origin": "archived-reference-metadata",
+      "source_urls": [
+        "https://ignoredone-wp.oss-cn-shanghai.aliyuncs.com/wp-content/uploads/2025/04/09.%E5%AD%90%E6%9C%88-%E7%BB%83%E4%B9%A0-768x480.webp"
+      ],
+      "media_included": false,
+      "local_availability": "unknown-on-install"
+    },
+    "SRC-ed93297b283ded305150": {
+      "source_id": "SRC-ed93297b283ded305150",
+      "original_sha256": "ed93297b283ded30515049d8db88c6bb46c8cbf1f7c517f70107f03bef925e39",
+      "kind": "raster",
+      "dimensions": [
+        1024,
+        641
+      ],
+      "preview_kind": "existing-thumbnail",
+      "creation_method": "unknown",
+      "origin": "archived-reference-metadata",
+      "source_urls": [
+        "https://ignoredone-wp.oss-cn-shanghai.aliyuncs.com/wp-content/uploads/2025/04/%E3%80%8A%E6%98%8E%E6%97%A5%E6%96%B9%E8%88%9F%E3%80%8B2022%E5%A4%8F%E6%97%A5%E5%98%89%E5%B9%B4%E5%8D%8E%E9%99%90%E6%97%B6%E6%B4%BB%E5%8A%A8%E5%AE%A3%E4%BC%A0PV-1024x641.webp"
+      ],
+      "media_included": false,
+      "local_availability": "unknown-on-install"
+    },
+    "SRC-41c94615c6f3035be708": {
+      "source_id": "SRC-41c94615c6f3035be708",
+      "original_sha256": "41c94615c6f3035be7082ed5aa6bbc7a75dcb74bd4111011728e002d51b5e7a1",
+      "kind": "raster",
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "preview_kind": "existing-thumbnail",
+      "creation_method": "unknown",
+      "origin": "archived-reference-metadata",
+      "source_urls": [
+        "https://cdn.ignoredone.cn/arknightsdesign/2023/0723/007.jpg"
+      ],
+      "media_included": false,
+      "local_availability": "unknown-on-install"
+    },
+    "SRC-3b54e40ea435f7463e92": {
+      "source_id": "SRC-3b54e40ea435f7463e92",
+      "original_sha256": "3b54e40ea435f7463e9230f33c17a584412a78729298ec2cdfe390e1a0cde2f4",
+      "kind": "raster",
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "preview_kind": "existing-thumbnail",
+      "creation_method": "unknown",
+      "origin": "archived-reference-metadata",
+      "source_urls": [
+        "https://cdn.ignoredone.cn/arknightsdesign/2026/0610/015.jpg"
+      ],
+      "media_included": false,
+      "local_availability": "unknown-on-install"
+    },
+    "SRC-dcf07717fb7cf2e89142": {
+      "source_id": "SRC-dcf07717fb7cf2e89142",
+      "original_sha256": "dcf07717fb7cf2e8914257fb89722a5792ac3ad924080ed363b49b3996a6dfd7",
+      "kind": "raster",
+      "dimensions": [
+        2560,
+        1600
+      ],
+      "preview_kind": "existing-thumbnail",
+      "creation_method": "unknown",
+      "origin": "archived-reference-metadata",
+      "source_urls": [
+        "https://ignoredone-wp.oss-cn-shanghai.aliyuncs.com/wp-content/uploads/2026/07/%E6%B6%A4%E5%A2%A8%E4%BD%9C%E6%88%98.webp"
+      ],
+      "media_included": false,
+      "local_availability": "unknown-on-install"
+    },
+    "SRC-9af005dde2f2883ce34e": {
+      "source_id": "SRC-9af005dde2f2883ce34e",
+      "original_sha256": "9af005dde2f2883ce34e142678da625b25f3a87e40c91e1210d8a41b17dda7fd",
+      "kind": "raster",
+      "dimensions": [
+        2560,
+        1600
+      ],
+      "preview_kind": "existing-thumbnail",
+      "creation_method": "unknown",
+      "origin": "archived-reference-metadata",
+      "source_urls": [
+        "https://ignoredone-wp.oss-cn-shanghai.aliyuncs.com/wp-content/uploads/2026/05/%E5%85%88%E9%94%8B%E9%98%9FGOEX8.webp"
+      ],
+      "media_included": false,
+      "local_availability": "unknown-on-install"
+    },
+    "SRC-8d6dde3521e02f1b5424": {
+      "source_id": "SRC-8d6dde3521e02f1b5424",
+      "original_sha256": "8d6dde3521e02f1b5424f92a7769d125f5c71e3362fe92473da4049b8294cad7",
+      "kind": "raster",
+      "dimensions": [
+        1020,
+        680
+      ],
+      "preview_kind": "existing-thumbnail",
+      "creation_method": "unknown",
+      "origin": "archived-reference-metadata",
+      "source_urls": [
+        "https://cdn.ignoredone.cn/arknightsdesign/2025/0706/010.png"
+      ],
+      "media_included": false,
+      "local_availability": "unknown-on-install"
+    },
+    "SRC-2341ede0b8427d614dc6": {
+      "source_id": "SRC-2341ede0b8427d614dc6",
+      "original_sha256": "2341ede0b8427d614dc66d05cd9de300311182ea02d65032c2f01679517bef6d",
+      "kind": "raster",
+      "dimensions": [
+        1280,
+        788
+      ],
+      "preview_kind": "existing-thumbnail",
+      "creation_method": "unknown",
+      "origin": "archived-reference-metadata",
+      "source_urls": [
+        "https://cdn.ignoredone.cn/arknightsdesign/2025/0715/066.png"
+      ],
+      "media_included": false,
+      "local_availability": "unknown-on-install"
+    },
+    "SRC-78f66659df9d51e74fa4": {
+      "source_id": "SRC-78f66659df9d51e74fa4",
+      "original_sha256": "78f66659df9d51e74fa4a00a387a50cb67d8dc5c90001df6313f0e383586e43d",
+      "kind": "raster",
+      "dimensions": [
+        626,
+        626
+      ],
+      "preview_kind": "existing-thumbnail",
+      "creation_method": "unknown",
+      "origin": "archived-reference-metadata",
+      "source_urls": [
+        "https://cdn.ignoredone.cn/icon/iconpack04/0001.png"
+      ],
+      "media_included": false,
+      "local_availability": "unknown-on-install"
+    },
+    "SRC-2a9ae1a4550056741500": {
+      "source_id": "SRC-2a9ae1a4550056741500",
+      "original_sha256": "2a9ae1a45500567415003e2dd613c76bdbfd01490c4f9545fa98112ee7db04f9",
+      "kind": "raster",
+      "dimensions": [
+        448,
+        447
+      ],
+      "preview_kind": "existing-thumbnail",
+      "creation_method": "unknown",
+      "origin": "archived-reference-metadata",
+      "source_urls": [],
+      "media_included": false,
+      "local_availability": "unknown-on-install"
+    },
+    "SRC-2583a841902c31d89da5": {
+      "source_id": "SRC-2583a841902c31d89da5",
+      "original_sha256": "2583a841902c31d89da5db4a9e99b3707cf5e1ac6199f7164f4c3a0e368d034a",
+      "kind": "raster",
+      "dimensions": [
+        240,
+        240
+      ],
+      "preview_kind": "existing-thumbnail",
+      "creation_method": "unknown",
+      "origin": "archived-reference-metadata",
+      "source_urls": [
+        "https://www.ignoredone.space/wp-content/uploads/2025/07/iconmonstr-arrow-right-lined-240.png"
+      ],
+      "media_included": false,
+      "local_availability": "unknown-on-install"
+    },
+    "SRC-56407a43b35a9c160574": {
+      "source_id": "SRC-56407a43b35a9c160574",
+      "original_sha256": "56407a43b35a9c160574d1b96be530586ef4eceba12792e1c7283ffc4e411582",
+      "kind": "raster",
+      "dimensions": [
+        295,
+        295
+      ],
+      "preview_kind": "existing-thumbnail",
+      "creation_method": "unknown",
+      "origin": "archived-reference-metadata",
+      "source_urls": [
+        "https://www.ignoredone.space/wp-content/themes/twentytwentyfour/assets/images/icon-message.webp"
+      ],
+      "media_included": false,
+      "local_availability": "unknown-on-install"
+    },
+    "SRC-5db2affbb348b6975452": {
+      "source_id": "SRC-5db2affbb348b6975452",
+      "original_sha256": "5db2affbb348b6975452d77b180b93e3973a9ccd46c6722313d9a13ccf897221",
+      "kind": "raster",
+      "dimensions": [
+        2340,
+        1080
+      ],
+      "preview_kind": "existing-thumbnail",
+      "creation_method": "unknown",
+      "origin": "archived-reference-metadata",
+      "source_urls": [
+        "https://cdn.ignoredone.cn/arknightsdesign/2026/0801/010.png"
+      ],
+      "media_included": false,
+      "local_availability": "unknown-on-install"
+    },
+    "SRC-95a2f81bda149b56a758": {
+      "source_id": "SRC-95a2f81bda149b56a758",
+      "original_sha256": "95a2f81bda149b56a758082b44a1a6275972488cda13d3c5115e893b5179e9c5",
+      "kind": "raster",
+      "dimensions": [
+        2340,
+        1080
+      ],
+      "preview_kind": "existing-thumbnail",
+      "creation_method": "unknown",
+      "origin": "archived-reference-metadata",
+      "source_urls": [
+        "https://cdn.ignoredone.cn/arknightsdesign/2026/0801/012.png"
+      ],
+      "media_included": false,
+      "local_availability": "unknown-on-install"
+    },
+    "SRC-caf9ea87b441a051820f": {
+      "source_id": "SRC-caf9ea87b441a051820f",
+      "original_sha256": "caf9ea87b441a051820f3f22ca470f4622fe8d77d3b11fbea4cdb2e8f7ab673b",
+      "kind": "raster",
+      "dimensions": [
+        2800,
+        1752
+      ],
+      "preview_kind": "existing-thumbnail",
+      "creation_method": "unknown",
+      "origin": "archived-reference-metadata",
+      "source_urls": [
+        "https://cdn.ignoredone.cn/arknightsdesign/2026/0807/019.jpg"
+      ],
+      "media_included": false,
+      "local_availability": "unknown-on-install"
+    },
+    "SRC-bbbf89d4328df6a0372f": {
+      "source_id": "SRC-bbbf89d4328df6a0372f",
+      "original_sha256": "bbbf89d4328df6a0372f2fd2ada5e178617c75bd59be4d87aa86d88a502b1967",
+      "kind": "raster",
+      "dimensions": [
+        2800,
+        1752
+      ],
+      "preview_kind": "existing-thumbnail",
+      "creation_method": "unknown",
+      "origin": "archived-reference-metadata",
+      "source_urls": [
+        "https://cdn.ignoredone.cn/arknightsdesign/2026/0807/002.jpg"
+      ],
+      "media_included": false,
+      "local_availability": "unknown-on-install"
+    },
+    "SRC-16a06248531dbedc1793": {
+      "source_id": "SRC-16a06248531dbedc1793",
+      "original_sha256": "16a06248531dbedc1793e948b52d92691e5d4478a4b5a0154f304dbd0059c68d",
+      "kind": "raster",
+      "dimensions": [
+        1365,
+        1536
+      ],
+      "preview_kind": "existing-thumbnail",
+      "creation_method": "unknown",
+      "origin": "archived-reference-metadata",
+      "source_urls": [
+        "https://ignoredone-wp.oss-cn-shanghai.aliyuncs.com/wp-content/uploads/2025/05/neglect-2-1365x1536.webp"
+      ],
+      "media_included": false,
+      "local_availability": "unknown-on-install"
+    },
+    "SRC-5f612d15adcd3504a6c7": {
+      "source_id": "SRC-5f612d15adcd3504a6c7",
+      "original_sha256": "5f612d15adcd3504a6c76a787e05981f5740032558e04f95c0863248154c601a",
+      "kind": "raster",
+      "dimensions": [
+        1080,
+        1080
+      ],
+      "preview_kind": "existing-thumbnail",
+      "creation_method": "unknown",
+      "origin": "archived-reference-metadata",
+      "source_urls": [
+        "https://ignoredone-wp.oss-cn-shanghai.aliyuncs.com/wp-content/uploads/2025/03/2025%E5%AD%97%E6%A0%87%E8%AE%BE%E8%AE%A1%E5%90%88%E9%9B%861.webp"
+      ],
+      "media_included": false,
+      "local_availability": "unknown-on-install"
+    },
+    "SRC-5cef8eeaea92aac12bbf": {
+      "source_id": "SRC-5cef8eeaea92aac12bbf",
+      "original_sha256": "5cef8eeaea92aac12bbf68b1308dea6e0c81dc45d8be154c48b56ca4c028e544",
+      "kind": "raster",
+      "dimensions": [
+        960,
+        600
+      ],
+      "preview_kind": "existing-thumbnail",
+      "creation_method": "unknown",
+      "origin": "archived-reference-metadata",
+      "source_urls": [
+        "https://cdn.ignoredone.cn/arknightsdesign/2020/0917/cover.jpg"
+      ],
+      "media_included": false,
+      "local_availability": "unknown-on-install"
+    },
+    "SRC-6a2deb081d81e197952d": {
+      "source_id": "SRC-6a2deb081d81e197952d",
+      "original_sha256": "6a2deb081d81e197952d0223b8cad4bd410196e87e250680de31af61bd70bfd8",
+      "kind": "raster",
+      "dimensions": [
+        2800,
+        1752
+      ],
+      "preview_kind": "existing-thumbnail",
+      "creation_method": "unknown",
+      "origin": "archived-reference-metadata",
+      "source_urls": [
+        "https://cdn.ignoredone.cn/endfielddesign/2026/0128/002.jpg"
+      ],
+      "media_included": false,
+      "local_availability": "unknown-on-install"
+    },
+    "SRC-44bc2a4ed77bfbc43299": {
+      "source_id": "SRC-44bc2a4ed77bfbc43299",
+      "original_sha256": "44bc2a4ed77bfbc43299d52f9bd0a9a28c7c9f1cfc7a5d529c90f02d3c417065",
+      "kind": "raster",
+      "dimensions": [
+        2560,
+        1707
+      ],
+      "preview_kind": "existing-thumbnail",
+      "creation_method": "unknown",
+      "origin": "archived-reference-metadata",
+      "source_urls": [
+        "https://ignoredone-wp.oss-cn-shanghai.aliyuncs.com/wp-content/uploads/2026/10/5943188-scaled.jpg"
+      ],
+      "media_included": false,
+      "local_availability": "unknown-on-install"
+    },
+    "SRC-98cb74b6b7a42f07108e": {
+      "source_id": "SRC-98cb74b6b7a42f07108e",
+      "original_sha256": "98cb74b6b7a42f07108ea31d3f5de69f101d928d25ab2c071a06d9f5b2c40604",
+      "kind": "raster",
+      "dimensions": [
+        300,
+        200
+      ],
+      "preview_kind": "existing-thumbnail",
+      "creation_method": "unknown",
+      "origin": "archived-reference-metadata",
+      "source_urls": [
+        "https://ignoredone-wp.oss-cn-shanghai.aliyuncs.com/wp-content/uploads/2026/10/2848713-300x200.jpg"
+      ],
+      "media_included": false,
+      "local_availability": "unknown-on-install"
+    },
+    "SRC-85ae343d379deb70bcdc": {
+      "source_id": "SRC-85ae343d379deb70bcdc",
+      "original_sha256": "85ae343d379deb70bcdc73e8231ae5ee897b4742de43ae8909bc24f215e41142",
+      "kind": "raster",
+      "dimensions": [
+        1024,
+        683
+      ],
+      "preview_kind": "existing-thumbnail",
+      "creation_method": "unknown",
+      "origin": "archived-reference-metadata",
+      "source_urls": [
+        "https://ignoredone-wp.oss-cn-shanghai.aliyuncs.com/wp-content/uploads/2026/10/vapo2-1024x683.jpg"
+      ],
+      "media_included": false,
+      "local_availability": "unknown-on-install"
+    },
+    "SRC-3bc9012a3e0c66cad10c": {
+      "source_id": "SRC-3bc9012a3e0c66cad10c",
+      "original_sha256": "3bc9012a3e0c66cad10cf18a099a4d842a966f71fecf2ff8baeda305d392979c",
+      "kind": "raster",
+      "dimensions": [
+        1920,
+        1280
+      ],
+      "preview_kind": "existing-thumbnail",
+      "creation_method": "unknown",
+      "origin": "archived-reference-metadata",
+      "source_urls": [
+        "https://ignoredone-wp.oss-cn-shanghai.aliyuncs.com/wp-content/uploads/2026/10/7323685.jpg"
+      ],
+      "media_included": false,
+      "local_availability": "unknown-on-install"
+    },
+    "SRC-6651cfec02a48efa3aa7": {
+      "source_id": "SRC-6651cfec02a48efa3aa7",
+      "original_sha256": "6651cfec02a48efa3aa73338793e5d7ee47dbdbc87a8a97a74c43467f3215e43",
+      "kind": "raster",
+      "dimensions": [
+        1146,
+        717
+      ],
+      "preview_kind": "existing-thumbnail",
+      "creation_method": "unknown",
+      "origin": "archived-reference-metadata",
+      "source_urls": [
+        "https://cdn.ignoredone.cn/arknightsdesign/2022/0602/cover.png"
+      ],
+      "media_included": false,
+      "local_availability": "unknown-on-install"
+    },
+    "SRC-87ae791863db50c7b733": {
+      "source_id": "SRC-87ae791863db50c7b733",
+      "original_sha256": "87ae791863db50c7b73316d7732d22a5804d4ee5a4f91eda63885fbcf183da98",
+      "kind": "font",
+      "dimensions": [
+        null,
+        null
+      ],
+      "preview_kind": "font-specimen",
+      "creation_method": "unknown",
+      "origin": "archived-reference-metadata",
+      "source_urls": [
+        "https://www.ignoredone.space/wp-content/uploads/fontlab/Pixel-Digivolve.woff2"
+      ],
+      "media_included": false,
+      "local_availability": "unknown-on-install"
+    },
+    "SRC-1fe0ce43d9e5b0ee4234": {
+      "source_id": "SRC-1fe0ce43d9e5b0ee4234",
+      "original_sha256": "1fe0ce43d9e5b0ee4234c19dc918b720841870e0920e7606bd30922de6050bb5",
+      "kind": "font",
+      "dimensions": [
+        null,
+        null
+      ],
+      "preview_kind": "font-specimen",
+      "creation_method": "unknown",
+      "origin": "archived-reference-metadata",
+      "source_urls": [
+        "https://www.ignoredone.space/wp-content/uploads/2026/02/PressStart2P-Regular.woff2"
+      ],
+      "media_included": false,
+      "local_availability": "unknown-on-install"
+    },
+    "SRC-ce94c20796987a169ea0": {
+      "source_id": "SRC-ce94c20796987a169ea0",
+      "original_sha256": "ce94c20796987a169ea08d24207c7a00ff457fe3b5dae5db21c7b51eab60eb3c",
+      "kind": "font",
+      "dimensions": [
+        null,
+        null
+      ],
+      "preview_kind": "font-specimen",
+      "creation_method": "unknown",
+      "origin": "archived-reference-metadata",
+      "source_urls": [],
+      "media_included": false,
+      "local_availability": "unknown-on-install"
+    },
+    "SRC-e7df61fb9045581e0ddc": {
+      "source_id": "SRC-e7df61fb9045581e0ddc",
+      "original_sha256": "e7df61fb9045581e0ddcc3d2aa86151e08ac7306452631d8a303341569e0dc58",
+      "kind": "font",
+      "dimensions": [
+        null,
+        null
+      ],
+      "preview_kind": "font-specimen",
+      "creation_method": "unknown",
+      "origin": "archived-reference-metadata",
+      "source_urls": [
+        "https://fonts.gstatic.com/s/bitcountpropsingle/v3/-W-gXIv9SyXT0xz0E9pIHCxbW8ZMGEVdhz4VoumsGFhzYseFqK9f_KOwYjYsHSocfu1DlxztzQH877SgJ2SUzQ4SJdODLz0JoLU3vXFrqXQooCdbs921GURlLGU.ttf"
+      ],
+      "media_included": false,
+      "local_availability": "unknown-on-install"
+    },
+    "SRC-408ad3335bda8c6994ca": {
+      "source_id": "SRC-408ad3335bda8c6994ca",
+      "original_sha256": "408ad3335bda8c6994ca2e8f106ad8df997b2a2317691ef943723f89c995e122",
+      "kind": "font",
+      "dimensions": [
+        null,
+        null
+      ],
+      "preview_kind": "font-specimen",
+      "creation_method": "unknown",
+      "origin": "archived-reference-metadata",
+      "source_urls": [
+        "https://fonts.gstatic.com/s/doto/v3/t5tJIRMbNJ6TQG7Il_EKPqP9zTnvqqGNcuvLMt1JIphF3-Wezw.ttf"
+      ],
+      "media_included": false,
+      "local_availability": "unknown-on-install"
+    },
+    "SRC-939fea723dad24504f40": {
+      "source_id": "SRC-939fea723dad24504f40",
+      "original_sha256": "939fea723dad24504f40faadc34eeffadfbbee558754f70c3c736e13786b0ab6",
+      "kind": "font",
+      "dimensions": [
+        null,
+        null
+      ],
+      "preview_kind": "font-specimen",
+      "creation_method": "unknown",
+      "origin": "archived-reference-metadata",
+      "source_urls": [
+        "https://fonts.gstatic.com/s/bebasneue/v16/JTUSjIg69CK48gW7PXooxW4.ttf"
+      ],
+      "media_included": false,
+      "local_availability": "unknown-on-install"
+    },
+    "SRC-803abbc1463af57653ad": {
+      "source_id": "SRC-803abbc1463af57653ad",
+      "original_sha256": "803abbc1463af57653ad874b618f16184e77dee19c0a94e5cc9def4b36957396",
+      "kind": "font",
+      "dimensions": [
+        null,
+        null
+      ],
+      "preview_kind": "font-specimen",
+      "creation_method": "unknown",
+      "origin": "archived-reference-metadata",
+      "source_urls": [
+        "https://www.ignoredone.space/wp-content/uploads/fontlab/Morganite-Medium.woff2"
+      ],
+      "media_included": false,
+      "local_availability": "unknown-on-install"
+    },
+    "SRC-5def918eb50138ea902f": {
+      "source_id": "SRC-5def918eb50138ea902f",
+      "original_sha256": "5def918eb50138ea902f39ee6ee4a3a1d64fbc26ca597d01339c5e3cdeb68487",
+      "kind": "font",
+      "dimensions": [
+        null,
+        null
+      ],
+      "preview_kind": "font-specimen",
+      "creation_method": "unknown",
+      "origin": "archived-reference-metadata",
+      "source_urls": [],
+      "media_included": false,
+      "local_availability": "unknown-on-install"
+    },
+    "SRC-60653162581b6973c66c": {
+      "source_id": "SRC-60653162581b6973c66c",
+      "original_sha256": "60653162581b6973c66c151c807726f94e6c70b918e623148954b80414ee06ae",
+      "kind": "font",
+      "dimensions": [
+        null,
+        null
+      ],
+      "preview_kind": "font-specimen",
+      "creation_method": "unknown",
+      "origin": "archived-reference-metadata",
+      "source_urls": [],
+      "media_included": false,
+      "local_availability": "unknown-on-install"
+    },
+    "SRC-d68e6cfa6b6140b9fc04": {
+      "source_id": "SRC-d68e6cfa6b6140b9fc04",
+      "original_sha256": "d68e6cfa6b6140b9fc045c7ed70fabbd63c1b470fb34c0a80b0934183edf4991",
+      "kind": "font",
+      "dimensions": [
+        null,
+        null
+      ],
+      "preview_kind": "font-specimen",
+      "creation_method": "unknown",
+      "origin": "archived-reference-metadata",
+      "source_urls": [],
+      "media_included": false,
+      "local_availability": "unknown-on-install"
+    }
+  },
+  "animated_references": [
+    {
+      "source_id": "SRC-75ace4fc19e6a54687d5",
+      "original_sha256": "75ace4fc19e6a54687d5a2b2f3b9becd711dc7e6997c759d18bf1a2876d5bf4f",
+      "kind": "raster",
+      "dimensions": [
+        532,
+        960
+      ],
+      "preview_kind": "existing-thumbnail",
+      "creation_method": "unknown",
+      "origin": "archived-reference-metadata",
+      "source_urls": [
+        "https://cdn.ignoredone.cn/arknightsdesign/2025/1115/003.webp"
+      ],
+      "media_included": false,
+      "local_availability": "unknown-on-install",
+      "catalog_frames": 59,
+      "temporal_review": "not-reviewed-in-full"
+    },
+    {
+      "source_id": "SRC-18ea4ac233cfe8dc1470",
+      "original_sha256": "18ea4ac233cfe8dc147053204e929032f6bcb3787b4e62b0fe03a58f020f833f",
+      "kind": "raster",
+      "dimensions": [
+        1000,
+        1399
+      ],
+      "preview_kind": "existing-thumbnail",
+      "creation_method": "unknown",
+      "origin": "archived-reference-metadata",
+      "source_urls": [
+        "https://cdn.ignoredone.cn/arknightsdesign/2026/1009/0032.png"
+      ],
+      "media_included": false,
+      "local_availability": "unknown-on-install",
+      "catalog_frames": 78,
+      "temporal_review": "not-reviewed-in-full"
+    },
+    {
+      "source_id": "SRC-87a9263afe6ca6683eb2",
+      "original_sha256": "87a9263afe6ca6683eb27a4b12bd22d3dc7a9f47f214215b5577fdaeb48486d9",
+      "kind": "raster",
+      "dimensions": [
+        1000,
+        1549
+      ],
+      "preview_kind": "existing-thumbnail",
+      "creation_method": "unknown",
+      "origin": "archived-reference-metadata",
+      "source_urls": [
+        "https://cdn.ignoredone.cn/arknightsdesign/2026/1009/0033.png"
+      ],
+      "media_included": false,
+      "local_availability": "unknown-on-install",
+      "catalog_frames": 82,
+      "temporal_review": "not-reviewed-in-full"
+    },
+    {
+      "source_id": "SRC-7752bea539ce15f2d20c",
+      "original_sha256": "7752bea539ce15f2d20c53d2fea4d100ccd3667cd4c5b68633b5f35b81693231",
+      "kind": "raster",
+      "dimensions": [
+        1000,
+        1549
+      ],
+      "preview_kind": "existing-thumbnail",
+      "creation_method": "unknown",
+      "origin": "archived-reference-metadata",
+      "source_urls": [
+        "https://cdn.ignoredone.cn/arknightsdesign/2026/1009/0034.png"
+      ],
+      "media_included": false,
+      "local_availability": "unknown-on-install",
+      "catalog_frames": 90,
+      "temporal_review": "not-reviewed-in-full"
+    },
+    {
+      "source_id": "SRC-fcf9658743323df53115",
+      "original_sha256": "fcf9658743323df5311592b3cc2f0b1193382839001bace52e886cc9c3481c6b",
+      "kind": "raster",
+      "dimensions": [
+        1000,
+        1943
+      ],
+      "preview_kind": "existing-thumbnail",
+      "creation_method": "unknown",
+      "origin": "archived-reference-metadata",
+      "source_urls": [
+        "https://cdn.ignoredone.cn/arknightsdesign/2026/1009/0035.png"
+      ],
+      "media_included": false,
+      "local_availability": "unknown-on-install",
+      "catalog_frames": 79,
+      "temporal_review": "not-reviewed-in-full"
+    },
+    {
+      "source_id": "SRC-96a964896008ee54e22b",
+      "original_sha256": "96a964896008ee54e22b4455b753988973e4744522db7311c7c66bab36933232",
+      "kind": "raster",
+      "dimensions": [
+        1000,
+        1659
+      ],
+      "preview_kind": "existing-thumbnail",
+      "creation_method": "unknown",
+      "origin": "archived-reference-metadata",
+      "source_urls": [
+        "https://cdn.ignoredone.cn/arknightsdesign/2026/1009/0036.png"
+      ],
+      "media_included": false,
+      "local_availability": "unknown-on-install",
+      "catalog_frames": 130,
+      "temporal_review": "not-reviewed-in-full"
+    },
+    {
+      "source_id": "SRC-12c3f302fbb7d3141e3e",
+      "original_sha256": "12c3f302fbb7d3141e3e91a10dbba2693b83a8311649b2f6c209ade861119c79",
+      "kind": "raster",
+      "dimensions": [
+        1000,
+        1659
+      ],
+      "preview_kind": "existing-thumbnail",
+      "creation_method": "unknown",
+      "origin": "archived-reference-metadata",
+      "source_urls": [
+        "https://cdn.ignoredone.cn/arknightsdesign/2026/1009/0037.png"
+      ],
+      "media_included": false,
+      "local_availability": "unknown-on-install",
+      "catalog_frames": 94,
+      "temporal_review": "not-reviewed-in-full"
+    },
+    {
+      "source_id": "SRC-e0ce0e958552ade79ec2",
+      "original_sha256": "e0ce0e958552ade79ec25e1a629f47660d0bf2011097342f03ca78776b7aff01",
+      "kind": "raster",
+      "dimensions": [
+        1000,
+        1549
+      ],
+      "preview_kind": "existing-thumbnail",
+      "creation_method": "unknown",
+      "origin": "archived-reference-metadata",
+      "source_urls": [
+        "https://cdn.ignoredone.cn/arknightsdesign/2026/1009/0038.png"
+      ],
+      "media_included": false,
+      "local_availability": "unknown-on-install",
+      "catalog_frames": 114,
+      "temporal_review": "not-reviewed-in-full"
+    },
+    {
+      "source_id": "SRC-097fad2636ceff28dddb",
+      "original_sha256": "097fad2636ceff28dddbab7a1e0cfc277009c3d61cb915145249f71d99af8dec",
+      "kind": "raster",
+      "dimensions": [
+        582,
+        960
+      ],
+      "preview_kind": "existing-thumbnail",
+      "creation_method": "unknown",
+      "origin": "archived-reference-metadata",
+      "source_urls": [
+        "https://cdn.ignoredone.cn/arknightsdesign/2025/1115/004.webp"
+      ],
+      "media_included": false,
+      "local_availability": "unknown-on-install",
+      "catalog_frames": 46,
+      "temporal_review": "not-reviewed-in-full"
+    },
+    {
+      "source_id": "SRC-9436bc25f591baaba755",
+      "original_sha256": "9436bc25f591baaba7558b17dcd2d4b552075f76599a20bca3939a13a1f8109a",
+      "kind": "raster",
+      "dimensions": [
+        1000,
+        2918
+      ],
+      "preview_kind": "existing-thumbnail",
+      "creation_method": "unknown",
+      "origin": "archived-reference-metadata",
+      "source_urls": [
+        "https://cdn.ignoredone.cn/arknightsdesign/2026/0920/0040.png"
+      ],
+      "media_included": false,
+      "local_availability": "unknown-on-install",
+      "catalog_frames": 48,
+      "temporal_review": "not-reviewed-in-full"
+    },
+    {
+      "source_id": "SRC-91324d60d9c204e44d55",
+      "original_sha256": "91324d60d9c204e44d558c949905afa87f65aeb3b4911644d9f2d88f3376a67e",
+      "kind": "raster",
+      "dimensions": [
+        1000,
+        2965
+      ],
+      "preview_kind": "existing-thumbnail",
+      "creation_method": "unknown",
+      "origin": "archived-reference-metadata",
+      "source_urls": [
+        "https://cdn.ignoredone.cn/arknightsdesign/2026/0920/0041.png"
+      ],
+      "media_included": false,
+      "local_availability": "unknown-on-install",
+      "catalog_frames": 38,
+      "temporal_review": "not-reviewed-in-full"
+    },
+    {
+      "source_id": "SRC-ac840f1cfc1cfca6bba6",
+      "original_sha256": "ac840f1cfc1cfca6bba66813de4c69880b6780d8f15248bd5b57d5001b57d4b5",
+      "kind": "raster",
+      "dimensions": [
+        582,
+        960
+      ],
+      "preview_kind": "existing-thumbnail",
+      "creation_method": "unknown",
+      "origin": "archived-reference-metadata",
+      "source_urls": [
+        "https://cdn.ignoredone.cn/arknightsdesign/2025/1115/005.webp"
+      ],
+      "media_included": false,
+      "local_availability": "unknown-on-install",
+      "catalog_frames": 57,
+      "temporal_review": "not-reviewed-in-full"
+    },
+    {
+      "source_id": "SRC-052bb2c970f5783071cf",
+      "original_sha256": "052bb2c970f5783071cfb91da05e086ac512c00b00622f87520fcf02d8786208",
+      "kind": "raster",
+      "dimensions": [
+        582,
+        960
+      ],
+      "preview_kind": "existing-thumbnail",
+      "creation_method": "unknown",
+      "origin": "archived-reference-metadata",
+      "source_urls": [
+        "https://cdn.ignoredone.cn/arknightsdesign/2025/1115/006.webp"
+      ],
+      "media_included": false,
+      "local_availability": "unknown-on-install",
+      "catalog_frames": 46,
+      "temporal_review": "not-reviewed-in-full"
+    },
+    {
+      "source_id": "SRC-c386d475b877adeb91cc",
+      "original_sha256": "c386d475b877adeb91cc4c8c8e7b0fa0d1aab516aa87ef0fcc9a55a74e541429",
+      "kind": "raster",
+      "dimensions": [
+        582,
+        960
+      ],
+      "preview_kind": "existing-thumbnail",
+      "creation_method": "unknown",
+      "origin": "archived-reference-metadata",
+      "source_urls": [
+        "https://cdn.ignoredone.cn/arknightsdesign/2025/1115/008.webp"
+      ],
+      "media_included": false,
+      "local_availability": "unknown-on-install",
+      "catalog_frames": 38,
+      "temporal_review": "not-reviewed-in-full"
+    },
+    {
+      "source_id": "SRC-78df9db3991beab416b5",
+      "original_sha256": "78df9db3991beab416b5123b6496a02682e26c8153bef4aff3938b7c449126b9",
+      "kind": "raster",
+      "dimensions": [
+        582,
+        960
+      ],
+      "preview_kind": "existing-thumbnail",
+      "creation_method": "unknown",
+      "origin": "archived-reference-metadata",
+      "source_urls": [
+        "https://cdn.ignoredone.cn/arknightsdesign/2025/1115/009.webp"
+      ],
+      "media_included": false,
+      "local_availability": "unknown-on-install",
+      "catalog_frames": 56,
+      "temporal_review": "not-reviewed-in-full"
+    },
+    {
+      "source_id": "SRC-0a2553de9a166901ee0f",
+      "original_sha256": "0a2553de9a166901ee0f2af335168dc360b41b92fffe69179e677f72366afecd",
+      "kind": "raster",
+      "dimensions": [
+        582,
+        960
+      ],
+      "preview_kind": "existing-thumbnail",
+      "creation_method": "unknown",
+      "origin": "archived-reference-metadata",
+      "source_urls": [
+        "https://cdn.ignoredone.cn/arknightsdesign/2025/1115/010.webp"
+      ],
+      "media_included": false,
+      "local_availability": "unknown-on-install",
+      "catalog_frames": 42,
+      "temporal_review": "not-reviewed-in-full"
+    },
+    {
+      "source_id": "SRC-da0ef01d4db7f4ba0d09",
+      "original_sha256": "da0ef01d4db7f4ba0d0965afa725d296a02601e2f86bde8dfee88e775eaec669",
+      "kind": "raster",
+      "dimensions": [
+        698,
+        960
+      ],
+      "preview_kind": "existing-thumbnail",
+      "creation_method": "unknown",
+      "origin": "archived-reference-metadata",
+      "source_urls": [
+        "https://cdn.ignoredone.cn/arknightsdesign/2025/1115/011.webp"
+      ],
+      "media_included": false,
+      "local_availability": "unknown-on-install",
+      "catalog_frames": 42,
+      "temporal_review": "not-reviewed-in-full"
+    },
+    {
+      "source_id": "SRC-7db564e0357f62211938",
+      "original_sha256": "7db564e0357f62211938686a0c9fe9c2b640714bede8af54f4bf6716c4aa9caf",
+      "kind": "raster",
+      "dimensions": [
+        698,
+        960
+      ],
+      "preview_kind": "existing-thumbnail",
+      "creation_method": "unknown",
+      "origin": "archived-reference-metadata",
+      "source_urls": [
+        "https://cdn.ignoredone.cn/arknightsdesign/2025/1115/012.webp"
+      ],
+      "media_included": false,
+      "local_availability": "unknown-on-install",
+      "catalog_frames": 41,
+      "temporal_review": "not-reviewed-in-full"
+    },
+    {
+      "source_id": "SRC-d33e00adf30d903d2c10",
+      "original_sha256": "d33e00adf30d903d2c106d719f831ac920f228b604019286b9521aff27543dda",
+      "kind": "raster",
+      "dimensions": [
+        462,
+        960
+      ],
+      "preview_kind": "existing-thumbnail",
+      "creation_method": "unknown",
+      "origin": "archived-reference-metadata",
+      "source_urls": [
+        "https://cdn.ignoredone.cn/arknightsdesign/2025/1115/013.webp"
+      ],
+      "media_included": false,
+      "local_availability": "unknown-on-install",
+      "catalog_frames": 52,
+      "temporal_review": "not-reviewed-in-full"
+    },
+    {
+      "source_id": "SRC-0cc95c921663bc4518a1",
+      "original_sha256": "0cc95c921663bc4518a18221e84a6f65222e3ecc4deecebc234dd2d62a47402a",
+      "kind": "raster",
+      "dimensions": [
+        720,
+        555
+      ],
+      "preview_kind": "existing-thumbnail",
+      "creation_method": "unknown",
+      "origin": "archived-reference-metadata",
+      "source_urls": [
+        "https://cdn.ignoredone.cn/arknightsdesign/2024/0828/019.webp"
+      ],
+      "media_included": false,
+      "local_availability": "unknown-on-install",
+      "catalog_frames": 50,
+      "temporal_review": "not-reviewed-in-full"
+    },
+    {
+      "source_id": "SRC-864b7b2ac0388d0703bc",
+      "original_sha256": "864b7b2ac0388d0703bc90f7cb08e86c11accea2e6688ee80512ea7011e77f99",
+      "kind": "raster",
+      "dimensions": [
+        500,
+        666
+      ],
+      "preview_kind": "existing-thumbnail",
+      "creation_method": "unknown",
+      "origin": "archived-reference-metadata",
+      "source_urls": [
+        "https://cdn.ignoredone.cn/arknightsdesign/2026/0516/057.webp"
+      ],
+      "media_included": false,
+      "local_availability": "unknown-on-install",
+      "catalog_frames": 237,
+      "temporal_review": "not-reviewed-in-full"
+    },
+    {
+      "source_id": "SRC-870584c7ed646b1c50a0",
+      "original_sha256": "870584c7ed646b1c50a03f5bf801b138484bc310020a8efaf53e39cfa018f96f",
+      "kind": "raster",
+      "dimensions": [
+        888,
+        444
+      ],
+      "preview_kind": "existing-thumbnail",
+      "creation_method": "unknown",
+      "origin": "archived-reference-metadata",
+      "source_urls": [],
+      "media_included": false,
+      "local_availability": "unknown-on-install",
+      "catalog_frames": 5,
+      "temporal_review": "not-reviewed-in-full"
+    },
+    {
+      "source_id": "SRC-9470416cd5fa9d6e0b50",
+      "original_sha256": "9470416cd5fa9d6e0b50a59c430b717499cfc375696094e4c2f7fa2bb1c22c1e",
+      "kind": "raster",
+      "dimensions": [
+        850,
+        1534
+      ],
+      "preview_kind": "existing-thumbnail",
+      "creation_method": "unknown",
+      "origin": "archived-reference-metadata",
+      "source_urls": [],
+      "media_included": false,
+      "local_availability": "unknown-on-install",
+      "catalog_frames": 5,
+      "temporal_review": "not-reviewed-in-full"
+    },
+    {
+      "source_id": "SRC-8bf8a864d7de3b165772",
+      "original_sha256": "8bf8a864d7de3b165772e952716fef01ad52508d74ddb8ee22f3d3703e36c40f",
+      "kind": "video",
+      "dimensions": [
+        null,
+        null
+      ],
+      "preview_kind": "existing-thumbnail",
+      "creation_method": "unknown",
+      "origin": "archived-reference-metadata",
+      "source_urls": [
+        "https://www.ignoredone.space/wp-content/uploads/2026/07/2026-07-24%2019-47-28_converted.webm"
+      ],
+      "media_included": false,
+      "local_availability": "unknown-on-install",
+      "catalog_frames": null,
+      "temporal_review": "not-reviewed-in-full"
+    }
+  ]
+}

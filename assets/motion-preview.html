@@ -1,0 +1,172 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>组件动效 · 参数实验（非原作参考）</title>
+<style>
+  :root { color-scheme: light; --paper:#f3f0e8; --surface:#faf9f5; --ink:#202722; --muted:#626b63; --line:#cdd0c5; --accent:#edaa53; --green:#263b32; --fast:140ms; --panel:220ms; --enter:240ms; --exit:140ms; --entry:180ms; --distance:6px; --press:.98; --ease:cubic-bezier(.2,.8,.2,1); }
+  * { box-sizing:border-box; }
+  body { margin:0; background:var(--paper); color:var(--ink); font:15px/1.65 "Microsoft YaHei","PingFang SC",sans-serif; }
+  button, input { font:inherit; }
+  button { cursor:pointer; color:inherit; }
+  button:disabled { cursor:not-allowed; opacity:.42; }
+  button:focus-visible, input:focus-visible { outline:3px solid #287a68; outline-offset:4px; }
+  main { max-width:1180px; margin:auto; padding:44px 30px 40px; }
+  .folio { display:flex; justify-content:space-between; gap:16px; border-bottom:1px solid var(--ink); padding-bottom:14px; font:12px/1.4 Consolas,monospace; letter-spacing:.13em; }
+  header { display:grid; grid-template-columns:1.2fr 1fr; gap:36px; align-items:end; margin:36px 0 28px; }
+  h1 { margin:0; font:clamp(38px,5vw,64px)/1.18 "KaiTi","STKaiti",serif; letter-spacing:.04em; }
+  h1 span { color:#287a68; }
+  header p { margin:0; color:var(--muted); max-width:40em; }
+  fieldset { border:0; margin:0; padding:0; }
+  legend { padding:0; margin-bottom:12px; font-weight:700; }
+  .choices { display:grid; grid-template-columns:repeat(3,1fr); gap:12px; }
+  .choice { display:flex; align-items:flex-start; gap:10px; padding:16px; border:1px solid var(--line); background:var(--surface); cursor:pointer; }
+  .choice:has(input:checked) { border-color:var(--green); box-shadow:inset 0 -3px var(--green); }
+  input[type=radio], input[type=checkbox] { accent-color:var(--green); margin-top:5px; flex-shrink:0; }
+  .choice strong, .choice small { display:block; }
+  .choice small { color:var(--muted); font-size:12px; margin-top:4px; }
+  .settings { display:flex; flex-wrap:wrap; justify-content:space-between; align-items:center; gap:10px; margin:16px 0 26px; }
+  .settings label { display:flex; gap:8px; align-items:center; }
+  .timing { font:12px/1.7 Consolas,"Microsoft YaHei",monospace; color:var(--muted); }
+  .grid { display:grid; grid-template-columns:1fr 1fr; gap:20px; }
+  .example { background:var(--surface); border:1px solid var(--line); min-width:0; }
+  .caption { padding:18px 22px 12px; }
+  .caption .num { font:12px Consolas,monospace; color:#287a68; margin-right:8px; }
+  h2 { margin:0; font-size:18px; font-weight:700; }
+  .caption p { margin:7px 0 0; font-size:13px; color:var(--muted); }
+  .stage { min-height:176px; margin:0 22px 22px; padding:22px; border:1px solid var(--line); background:var(--paper); }
+  .button-row { display:flex; flex-wrap:wrap; align-items:center; gap:12px; min-height:74px; }
+  .action { display:inline-flex; align-items:center; justify-content:space-between; gap:24px; padding:11px 17px; border:1px solid var(--ink); background:var(--accent); font-weight:700; transition:background var(--fast) var(--ease), transform var(--fast) var(--ease); }
+  .action:hover:not(:disabled) { background:#f5bd77; transform:translateY(calc(var(--distance) * -.3)); }
+  .action:active:not(:disabled) { transform:scale(var(--press)); }
+  .quiet { padding:8px 12px; border:1px solid var(--line); background:var(--surface); transition:background var(--fast) var(--ease); }
+  .quiet:hover { background:#e4e7dd; }
+  .note { display:block; color:var(--muted); font-size:12px; margin-top:16px; }
+  .tabs { display:grid; grid-template-columns:repeat(3,1fr); position:relative; padding:4px; background:#dfe3d9; isolation:isolate; }
+  .indicator { position:absolute; top:4px; bottom:4px; left:4px; width:calc((100% - 8px)/3); background:var(--green); z-index:-1; transform:translateX(calc(var(--index, 0) * 100%)); transition:transform var(--panel) var(--ease); }
+  .tabs button { border:0; background:transparent; padding:9px 4px; transition:color var(--fast) var(--ease); }
+  .tabs button[aria-selected=true] { color:#faf9f5; }
+  .tab-copy { padding-top:18px; min-height:56px; }
+  .drawer-stage { height:190px; position:relative; overflow:hidden; }
+  .drawer { position:absolute; inset:0 0 0 auto; width:min(82%,290px); padding:20px; background:var(--green); color:#f5f3eb; visibility:hidden; opacity:0; transform:translateX(105%); transition:transform var(--exit) var(--ease), opacity var(--exit) var(--ease), visibility 0s var(--exit); }
+  .drawer.open { visibility:visible; opacity:1; transform:translateX(0); transition:transform var(--enter) var(--ease), opacity var(--enter) var(--ease), visibility 0s; }
+  .drawer p { color:#d5dfd3; font-size:13px; }
+  .drawer .quiet { color:#f5f3eb; background:transparent; border-color:#8fa595; }
+  .entry-stage { min-height:190px; display:flex; flex-direction:column; gap:10px; }
+  .entry-item { background:var(--surface); border-left:3px solid #287a68; padding:10px 12px; font-size:13px; }
+  .entry-item:last-child { border-color:var(--accent); }
+  .entry-tools { display:flex; justify-content:space-between; align-items:center; gap:10px; margin:0 22px 18px; }
+  footer { margin-top:28px; padding-top:18px; border-top:1px solid var(--line); color:var(--muted); font-size:12px; }
+  [data-reduced=true] *, [data-reduced=true] *::before, [data-reduced=true] *::after { transition:none !important; animation:none !important; }
+  [data-reduced=true] .action:hover:not(:disabled), [data-reduced=true] .action:active:not(:disabled) { transform:none; }
+  @media (prefers-reduced-motion:reduce) { *, *::before, *::after { transition:none !important; animation:none !important; } }
+  @media (max-width:720px) { main { padding:24px 16px; } header { grid-template-columns:1fr; gap:20px; margin-top:28px; } .choices, .grid { grid-template-columns:1fr; } .caption { padding:16px; } .stage { margin:0 16px 16px; padding:16px; } .entry-tools { margin:0 16px 16px; } .folio { letter-spacing:.04em; font-size:10px; } }
+</style>
+</head>
+<body>
+<main>
+  <div class="folio"><span>DESIGN / MOTION STUDIES</span><span>INTERACTIVE · 01—04</span></div>
+  <header><h1>同一组件，<br><span>不同节奏。</span></h1><p>这是本技能编写的参数实验，不作为原作参考。比较拟议方案的速度、位移和收束感；可以只说“更利落一点”或“少一些运动”，不必决定每一个毫秒。</p></header>
+  <fieldset>
+    <legend>实验参数 · 配色与内容保持一致</legend>
+    <div class="choices">
+      <label class="choice"><input type="radio" name="motion" value="quiet"><span><strong>01 克制清晰</strong><small>几乎不位移 · 适合持续操作</small></span></label>
+      <label class="choice"><input type="radio" name="motion" value="terminal" checked><span><strong>02 短促终端</strong><small>小幅移动 · 清楚的进退场</small></span></label>
+      <label class="choice"><input type="radio" name="motion" value="soft"><span><strong>03 柔和层叠</strong><small>舒展收束 · 适合低频展示</small></span></label>
+    </div>
+  </fieldset>
+  <div class="settings"><label><input type="checkbox" id="still">静止对照（仅此示例）</label><span class="timing" id="timing"></span><span class="timing" id="motion-status" role="status"></span></div>
+  <div class="grid">
+    <section class="example" aria-labelledby="button-title">
+      <div class="caption"><h2 id="button-title"><span class="num">01 /</span>悬停与按下</h2><p>鼠标悬停、按住或用键盘触发。反馈不改变布局。</p></div>
+      <div class="stage"><div class="button-row"><button class="action" id="sample-action">试试按下 <span aria-hidden="true">↗</span></button><button class="action" disabled>禁用状态</button></div><span class="note" id="action-status" role="status">尚未触发</span></div>
+    </section>
+    <section class="example" aria-labelledby="tabs-title">
+      <div class="caption"><h2 id="tabs-title"><span class="num">02 /</span>连续选择</h2><p>连续切换，或使用左右方向键。指示器追随当前选择。</p></div>
+      <div class="stage"><div class="tabs" role="tablist" aria-label="示例档案分类"><span class="indicator" aria-hidden="true"></span><button role="tab" id="tab-0" aria-controls="tab-panel" aria-selected="true">概览</button><button role="tab" id="tab-1" aria-controls="tab-panel" aria-selected="false" tabindex="-1">资料</button><button role="tab" id="tab-2" aria-controls="tab-panel" aria-selected="false" tabindex="-1">记录</button></div><div class="tab-copy" id="tab-panel" role="tabpanel" aria-labelledby="tab-0" tabindex="0">概览 · 当前信息立即可读。</div></div>
+    </section>
+    <section class="example" aria-labelledby="drawer-title">
+      <div class="caption"><h2 id="drawer-title"><span class="num">03 /</span>展开与收回</h2><p>试试关闭途中重开。Escape 关闭并将焦点归还入口。</p></div>
+      <div class="stage drawer-stage"><button class="quiet" id="drawer-trigger" aria-expanded="false" aria-controls="drawer">展开面板</button><span class="note">退出后，隐藏内容不可聚焦。</span><aside class="drawer" id="drawer" aria-label="示例局部面板" aria-hidden="true" inert><strong>一张局部面板</strong><p>进入和退出各有节奏。操作状态立即更新，动画不排队。</p><button class="quiet" id="drawer-close">收回面板</button></aside></div>
+    </section>
+    <section class="example" aria-labelledby="entry-title">
+      <div class="caption"><h2 id="entry-title"><span class="num">04 /</span>分层入场</h2><p>用小幅位移和错峰建立主次；重复播放会取消上一轮。</p></div>
+      <div class="stage entry-stage"><div class="entry-item">01 · 标题与身份先建立</div><div class="entry-item">02 · 内容随后出现</div><div class="entry-item">03 · 操作落在稳定位置</div></div>
+      <div class="entry-tools"><span class="timing">有限播放 · 不自动循环</span><button class="quiet" id="replay">重播入场</button></div>
+    </section>
+  </div>
+  <footer>本页由本技能编写，仅用于参数实验，不作为原作参考或产品运行录像。短促终端的时长参考岚笺已发布规则；其余节奏与此处编排为实验。遵循系统低动态偏好。选择参数不等于确认产品实现。</footer>
+</main>
+<script>
+  const profiles = {
+    quiet: { fast:120, panel:180, enter:180, exit:120, entry:160, distance:2, press:.99, ease:'cubic-bezier(.2,.7,.2,1)' },
+    terminal: { fast:140, panel:220, enter:240, exit:140, entry:180, distance:6, press:.98, ease:'cubic-bezier(.2,.8,.2,1)' },
+    soft: { fast:180, panel:300, enter:320, exit:200, entry:280, distance:10, press:.97, ease:'cubic-bezier(.2,.9,.3,1.08)' }
+  };
+  const root = document.documentElement;
+  const media = matchMedia('(prefers-reduced-motion: reduce)');
+  const still = document.querySelector('#still');
+  const items = [...document.querySelectorAll('.entry-item')];
+  let profile = profiles.terminal;
+  const reduced = () => media.matches || still.checked;
+  function cancelEntry() { items.forEach(item => item.getAnimations().forEach(animation => animation.cancel())); }
+  function updateReduced() {
+    root.dataset.reduced = String(reduced());
+    if (reduced()) document.getAnimations().forEach(animation => animation.cancel());
+    document.querySelector('#motion-status').textContent = media.matches ? '系统低动态 · 静止落点' : still.checked ? '当前：静止对照' : '当前：动效开启';
+  }
+  function setProfile(name) {
+    cancelEntry();
+    profile = profiles[name];
+    for (const key of ['fast','panel','enter','exit','entry']) root.style.setProperty('--'+key, profile[key]+'ms');
+    root.style.setProperty('--distance', profile.distance+'px');
+    root.style.setProperty('--press', profile.press);
+    root.style.setProperty('--ease', profile.ease);
+    document.querySelector('#timing').textContent = `反馈 ${profile.fast} / 切换 ${profile.panel} / 面板 ${profile.enter}入·${profile.exit}出 ms`;
+  }
+  document.querySelectorAll('[name=motion]').forEach(input => input.addEventListener('change', () => setProfile(input.value)));
+  still.addEventListener('change', updateReduced);
+  media.addEventListener('change', updateReduced);
+  let presses = 0;
+  document.querySelector('#sample-action').addEventListener('click', () => { document.querySelector('#action-status').textContent = `已触发 ${++presses} 次 · 仅演示按键反馈`; });
+  const tabs = [...document.querySelectorAll('[role=tab]')];
+  const panel = document.querySelector('#tab-panel');
+  const copy = ['概览 · 当前信息立即可读。','资料 · 内容切换不等待动画。','记录 · 快速选择也停在最新状态。'];
+  function selectTab(index) {
+    tabs.forEach((tab, position) => { tab.setAttribute('aria-selected', String(position === index)); tab.tabIndex = position === index ? 0 : -1; });
+    document.querySelector('.tabs').style.setProperty('--index', index);
+    panel.setAttribute('aria-labelledby', tabs[index].id);
+    panel.textContent = copy[index];
+  }
+  tabs.forEach((tab, index) => {
+    tab.addEventListener('click', () => selectTab(index));
+    tab.addEventListener('keydown', event => {
+      const next = event.key === 'ArrowRight' ? (index+1)%tabs.length : event.key === 'ArrowLeft' ? (index+tabs.length-1)%tabs.length : event.key === 'Home' ? 0 : event.key === 'End' ? tabs.length-1 : null;
+      if (next !== null) { event.preventDefault(); selectTab(next); tabs[next].focus(); }
+    });
+  });
+  const drawer = document.querySelector('#drawer');
+  const trigger = document.querySelector('#drawer-trigger');
+  function setDrawer(open) {
+    if (!open && drawer.contains(document.activeElement)) trigger.focus();
+    drawer.inert = !open;
+    drawer.classList.toggle('open', open);
+    drawer.setAttribute('aria-hidden', String(!open));
+    trigger.setAttribute('aria-expanded', String(open));
+    trigger.textContent = open ? '收回面板' : '展开面板';
+    if (open) document.querySelector('#drawer-close').focus({preventScroll:true});
+  }
+  trigger.addEventListener('click', () => setDrawer(!drawer.classList.contains('open')));
+  document.querySelector('#drawer-close').addEventListener('click', () => setDrawer(false));
+  document.addEventListener('keydown', event => { if (event.key === 'Escape' && drawer.classList.contains('open')) { setDrawer(false); trigger.focus(); } });
+  document.querySelector('#replay').addEventListener('click', () => {
+    cancelEntry();
+    if (reduced()) return;
+    items.forEach((item, index) => item.animate([{ opacity:0, transform:`translateY(${profile.distance}px)` },{ opacity:1, transform:'translateY(0)' }], { duration:profile.entry, delay:index*35, easing:profile.ease, fill:'backwards' }));
+  });
+  setProfile('terminal');
+  updateReduced();
+</script>
+</body>
+</html>

@@ -1,4 +1,4 @@
 interface:
-  display_name: "岚笺 · 明日方舟风味 UI"
-  short_description: "提炼岚笺 GitHub 发布版的档案终端配色、中文排版、组件与动效"
-  default_prompt: "使用 $lanjian-arknights-ui，按岚笺已发布版本的档案终端风格设计当前页面，保留现有功能与组件职责。"
+  display_name: "设计风格与方向共创"
+  short_description: "用可追溯的原始参考帮助用户选择风格，再设计完整图并验证组件动效"
+  default_prompt: "使用 $design-style-library，未指定风格时先推荐适合用途的方向并展示原始参考，生成稿不作为风格示例；动效区分原始参考和参数实验，等我选择或自由描述后再设计，已选定时沿用。"
